@@ -18,14 +18,30 @@ public class BodyOfWater{
         avgDepth = avgdep;
 
     }
+    //SETTERS
 
+
+    public void setName(String n){
+        name = n;
+    }
+    public void setlargestDiameter(double d){
+        largestDiameter = d;
+    }
+    public void setavgDepth(double a){
+        avgDepth = a;
+    }
+    public void setisSaltWater(boolean s){
+        isSaltWater = s;
+    }
+
+    //GETTERS
 
     public String getName(){
         return name;
     }
     
     public double getlargestDiameter(){
-        return 
+        return largestDiameter;
     }
 
     public double getavgDepth(){
@@ -34,16 +50,6 @@ public class BodyOfWater{
 
     public boolean getisSaltWater(){
         return isSaltWater;
+    }
 
 }
-
-
-
-
-
-
-
-
-
-}
-
